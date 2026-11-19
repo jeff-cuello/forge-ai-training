@@ -1,0 +1,25 @@
+{
+    "$schema": "https://opencode.ai/config.json",
+    "permissions": [
+        {
+            "action": "edit",
+            "resource": "*",
+            "effect": "deny"
+        },
+        {
+            "action": "shell",
+            "resource": "*",
+            "effect": "deny"
+        },
+        {
+            "action": "edit",
+            "resource": "router.py",
+            "effect": "allow"
+        },
+        {
+            "action": "edit",
+            "resource": "tests/test_router.py",
+            "effect": "allow"
+        }
+    ]
+}
